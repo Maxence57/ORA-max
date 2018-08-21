@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.gvp.ora.entities.Utilisateur;
+import com.gvp.ora.entities.Users;
 
 @Repository
 public interface UsersRepo extends JpaRepository<Users, Integer> {
